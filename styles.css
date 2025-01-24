@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.large {
+    font-size: 48pt;
+}
+
+.medium {
+    font-size: 42pt;
+}
+
+.small {
+    font-size: 35pt;
+}
+
+.very-small {
+    font-size: 9pt;
+}
+
+.muted-text {
+    color: #888;
+}
+
+.exp-text {
+    font-size: 18pt;
+}
+
+.imgsize {
+    width: 350px;
+    height: auto;
+    clip-path: inset(10% 10% 10% 10%);
+}
+
+.logosize {
+    width: auto;
+    height: 150px;
+}
+
+.harvard-spacing {
+    margin-top: -25px;
+}
+
+.crestwood-spacing {
+    margin-top: -15px;
+}
+
+.exp-spacing {
+    margin-top: -18px;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.margins {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.imgsizegallary {
+    width: 500px;
+    height: auto;
+}
+
+.imgsizewidner {
+    width: auto;
+    height: auto;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a)
+    
+}
+.font {
+    font-family: 'Inter', sans-serif;
+}
+.white-text {
+    color: rgba(255, 255, 255, 0.819);
+}
+
+.secondary-text {
+    color: rgb(168, 152, 81);
+}
+
+.button-text {
+    color: rgba(255, 255, 255, 0.819)
+}
+
+.section-spacing {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.school-logo {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto; /* Keep proportions */
+}
+
+.education-card {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.education-card:hover {
+    background-color: #2a2a2a;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+.footer {
+    background: #1a1a1a; /* Dark background color */
+    color: #fff; /* White text */
+    font-size: 0.9rem;
+    padding: 40px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #bbbbbb; /* Muted link color */
+}
+
+.footer a:hover {
+    color: #007bff; /* Highlight link on hover */
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-outline-light {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
